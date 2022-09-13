@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring Grid</title>
+    <style>
+        .container{
+            /* border: 2px solid red; */
+            border-radius: 5px;
+            background-color: rgb(9, 194, 255);
+            margin: 50px 0;
+            display: grid;
+            /* grid-template-columns: 200px 200px 200px 200px; */
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(8, 50px);
+        }
+        .boxes{
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: lightgray;
+            color: red;
+            margin: 10px;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+        .sec-container{
+            /* border: 2px solid darkblue; */
+            border-radius: 5px;
+            background-color: rgba(119, 136, 153, 0.719);
+            display: grid;
+            grid-template-columns: repeat(3,200px);
+            grid-template-rows: repeat(14, 50px);
+            justify-content: space-evenly;
+        }
+        .sec-boxes{
+            color: black;
+            background-color: lightskyblue;
+            border-radius: 5px;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exploring Grid Layout</h1>
+    <div class="container">
+        <div class="boxes">Item-1</div>
+        <div class="boxes">Item-2</div>
+        <div class="boxes">Item-3</div>
+        <div class="boxes">Item-4</div>
+        <div class="boxes">Item-5</div>
+        <div class="boxes">Item-6</div>
+        <div class="boxes">Item-7</div>
+        <div class="boxes">Item-8</div>
+        <div class="boxes">Item-9</div>
+        <div class="boxes">Item-10</div>
+        <div class="boxes">Item-11</div>
+        <div class="boxes">Item-12</div>
+        <div class="boxes">Item-13</div>
+        <div class="boxes">Item-14</div>
+        <div class="boxes">Item-15</div>
+        <div class="boxes">Item-16</div>
+        <div class="boxes">Item-17</div>
+        <div class="boxes">Item-18</div>
+        <div class="boxes">Item-19</div>
+        <div class="boxes">Item-20</div>
+        <div class="boxes">Item-21</div>
+        <div class="boxes">Item-22</div>
+        <div class="boxes">Item-23</div>
+        <div class="boxes">Item-24</div>
+        <div class="boxes">Item-25</div>
+        <div class="boxes">Item-26</div>
+        <div class="boxes">Item-27</div>
+        <div class="boxes">Item-28</div>
+        <div class="boxes">Item-29</div>
+        <div class="boxes">Item-30</div>
+        <div class="boxes">Item-31</div>
+        <div class="boxes">Item-32</div>
+    </div>
+    <div class="sec-container">
+        <div class="sec-boxes">Item-1</div>
+        <div class="sec-boxes">Item-2</div>
+        <div class="sec-boxes">Item-3</div>
+        <div class="sec-boxes">Item-4</div>
+        <div class="sec-boxes">Item-5</div>
+        <div class="sec-boxes">Item-6</div>
+        <div class="sec-boxes">Item-7</div>
+        <div class="sec-boxes">Item-8</div>
+        <div class="sec-boxes">Item-9</div>
+        <div class="sec-boxes">Item-10</div>
+        <div class="sec-boxes">Item-11</div>
+        <div class="sec-boxes">Item-12</div>
+        <div class="sec-boxes">Item-13</div>
+        <div class="sec-boxes">Item-14</div>
+        <div class="sec-boxes">Item-15</div>
+        <div class="sec-boxes">Item-16</div>
+        <div class="sec-boxes">Item-17</div>
+        <div class="sec-boxes">Item-18</div>
+        <div class="sec-boxes">Item-19</div>
+        <div class="sec-boxes">Item-20</div>
+        <div class="sec-boxes">Item-21</div>
+        <div class="sec-boxes">Item-22</div>
+        <div class="sec-boxes">Item-23</div>
+        <div class="sec-boxes">Item-24</div>
+        <div class="sec-boxes">Item-25</div>
+        <div class="sec-boxes">Item-26</div>
+        <div class="sec-boxes">Item-27</div>
+        <div class="sec-boxes">Item-28</div>
+        <div class="sec-boxes">Item-29</div>
+        <div class="sec-boxes">Item-30</div>
+        <div class="sec-boxes">Item-31</div>
+        <div class="sec-boxes">Item-32</div>
+    </div>
+
+</body>
+</html>
